@@ -1,0 +1,20 @@
+@font-face {
+  src: url(./fonts/Roboto-Slab.woff);
+  font-family: 'Roboto Slab';
+}
+
+@font-face {
+  src: url(./fonts/Roboto.woff);
+  font-family: 'Roboto';
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #03A751;
+}
+
+
+

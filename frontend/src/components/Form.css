@@ -1,0 +1,25 @@
+.form {
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.form__label {
+    width: 250px;
+    margin-bottom:30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form__input {
+    margin-top: 7px;
+    padding: 7px 15px;
+}
+
+.form__divider {
+    width: 100%;
+}
+
+.form__error {
+    color: red;
+}

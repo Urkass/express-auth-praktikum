@@ -1,0 +1,74 @@
+.friend {
+    padding: 60px 0;
+}
+
+.friend__card {
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 13px 50px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.friend__userpic {
+    width: 173px;
+    height: 173px;
+}
+
+.friend__details {
+    width: calc(100% - 173px - 60px);
+}
+
+.friend__name {
+    font-size: 32px;
+    line-height: 42px;
+    margin: 10px 0 0;
+}
+
+.friend__location {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+    color: #7B7B7B;
+    margin: 0;
+}
+
+.friend__quantity {
+    font-family: Roboto;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 13px 0 8px;
+}
+
+.friend__fav-quote {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0;
+}
+
+.button {
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    background-color: transparent;
+    color: #000;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #000;
+    color: #03A751;
+}
+
+.button_type_back {
+    margin-top: 24px;
+    width: 121px;
+    height: 56px;
+    background-image: url("data:image/svg+xml,%3Csvg width='61' height='16' viewBox='0 0 61 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.292889 7.29289C-0.0976333 7.68341 -0.0976334 8.31658 0.292889 8.7071L6.65685 15.0711C7.04737 15.4616 7.68054 15.4616 8.07106 15.0711C8.46159 14.6805 8.46159 14.0474 8.07106 13.6568L2.41421 7.99999L8.07106 2.34314C8.46159 1.95262 8.46159 1.31945 8.07106 0.928928C7.68054 0.538403 7.04738 0.538403 6.65685 0.928927L0.292889 7.29289ZM61 7L0.999996 6.99999L0.999996 8.99999L61 9L61 7Z' fill='%23000000'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.button_type_back:hover {
+    background-image: url("data:image/svg+xml,%3Csvg width='61' height='16' viewBox='0 0 61 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.292889 7.29289C-0.0976333 7.68341 -0.0976334 8.31658 0.292889 8.7071L6.65685 15.0711C7.04737 15.4616 7.68054 15.4616 8.07106 15.0711C8.46159 14.6805 8.46159 14.0474 8.07106 13.6568L2.41421 7.99999L8.07106 2.34314C8.46159 1.95262 8.46159 1.31945 8.07106 0.928928C7.68054 0.538403 7.04738 0.538403 6.65685 0.928927L0.292889 7.29289ZM61 7L0.999996 6.99999L0.999996 8.99999L61 9L61 7Z' fill='%2303A751'/%3E%3C/svg%3E");
+}
